@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = TradoMailchimpModule::VERSION
   s.authors     = ["Tom Dallimore"]
   s.email       = ["me@tomdallimore.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://trado.io"
   s.summary     = "Module for Mailchimp newsletter subscription in the Trado Ecommerce platform."
   s.description = "Module for Mailchimp newsletter subscription in the Trado Ecommerce platform."
   s.license     = "MIT"
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.7.1"
+  s.add_dependency "gibbon", "~> 2.2.4"
 
   s.add_development_dependency "sqlite3"
 end
