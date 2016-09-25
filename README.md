@@ -5,7 +5,38 @@ Module for MailChimp newsletter subscription in the Trado Ecommerce platform. If
 
 ## Installation
 
-Coming soon...
+Add module to your Gemfile:
+
+```ruby
+gem 'trado_mailchimp_module', github: 'Jellyfishboy/trado-mailchimp-module', branch: 'master'
+```
+
+Then run bundle to install the Gem:
+
+```sh
+bundle install
+```
+
+Set up an initializer file with your MailChimp API keys:
+
+```ruby
+Gibbon::Request.api_key = "your_api_key"
+Gibbon::Request.timeout = 15
+```
+e.g. *config/initializers/mailchimp.rb*
+
+Now generate migrations, create helpers and assign model concerns:
+
+```sh
+rails generate trado_mailchimp_module:install
+bundle exec rake db:migrate
+```
+
+Restart the main application server:
+
+```sh
+foreman start -f Procfile.dev
+```
 
 ## Versioning
 
