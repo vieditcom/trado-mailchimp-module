@@ -3,6 +3,8 @@
 # MailChimp Module
 Module for MailChimp newsletter subscription in the Trado Ecommerce platform. If you would like to get started using the Trado Ecommerce platform, head on over to the [Official site](http://www.trado.io/?utm_source=github&utm_medium=website&utm_campaign=trado)!
 
+[Release notes](http://release.tomdallimore.com/projects/trado-mailchimp)
+
 ## Installation
 
 Add module to your Gemfile:
