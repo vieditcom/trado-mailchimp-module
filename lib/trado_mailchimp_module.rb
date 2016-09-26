@@ -1,8 +1,10 @@
 module TradoMailchimpModule
 end
 
-require 'trado_googlemerchant_module/engine'
-require 'trado_googlemerchant_module/version'
-require 'trado_googlemerchant_module/active_record'
+require 'gibbon'
+
+require 'trado_mailchimp_module/engine'
+require 'trado_mailchimp_module/version'
+require 'trado_mailchimp_module/active_record'
 
 ActiveRecord::Base.send(:include, TradoMailchimpModule::ActiveRecord)

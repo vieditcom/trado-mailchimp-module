@@ -9,11 +9,7 @@ module TradoMailchimpModule
                     copy_file "migration.rb", "db/migrate/#{timestamp_number}_add_mailchimp_attributes.rb"
                 end
             end
-
-            def copy_helper
-                template "helper.rb", "app/helpers/mailchimp_helper.rb"
-            end
-
+            
             def assign_model_concerns
                 order_content = <<-CONTENT
 
