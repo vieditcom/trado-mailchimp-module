@@ -8,7 +8,7 @@ Module for MailChimp newsletter subscription in the Trado Ecommerce platform. If
 Add module to your Gemfile:
 
 ```ruby
-gem 'trado_mailchimp_module', github: 'Jellyfishboy/trado-mailchimp-module', branch: 'master'
+gem 'trado_mailchimp_module'
 ```
 
 Then run bundle to install the Gem:
@@ -37,6 +37,8 @@ Restart the main application server:
 ```sh
 foreman start -f Procfile.dev
 ```
+
+You can then modify the MailChimp List Id for your newsletter emails in the admin store settings.
 
 ## Versioning
 
