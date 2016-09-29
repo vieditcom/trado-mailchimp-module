@@ -42,6 +42,11 @@ foreman start -f Procfile.dev
 
 You can then modify the MailChimp List Id for your newsletter emails in the admin store settings.
 
+## Upcoming Features
+
+* List available lists from MailChimp in the Store settings administration
+* Render newsletter signup form 
+
 ## Versioning
 
 Trado PayPal module follows Semantic Versioning 2.0 as defined at
