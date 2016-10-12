@@ -25,7 +25,7 @@ Set up an initializer file with your MailChimp API keys:
 Gibbon::Request.api_key = "your_api_key"
 Gibbon::Request.timeout = 15
 ```
-e.g. *config/initializers/mailchimp.rb*
+e.g. *config/initializers/mailchimp.rb*. It would be a good idea to store sensitive data in *config/secrets.yml*.
 
 Now generate migrations, create helpers and assign model concerns:
 
