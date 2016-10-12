@@ -27,7 +27,7 @@ Gibbon::Request.timeout = 15
 ```
 e.g. *config/initializers/mailchimp.rb*. It would be a good idea to store sensitive data in *config/secrets.yml*.
 
-Now generate migrations, create helpers and assign model concerns:
+Now generate migrations and assign model concerns:
 
 ```sh
 rails generate trado_mailchimp_module:install
