@@ -49,7 +49,7 @@ You can then modify the MailChimp List Id for your newsletter emails in the admi
 
 ## Versioning
 
-Trado PayPal module follows Semantic Versioning 2.0 as defined at
+Trado Mailchimp module follows Semantic Versioning 2.0 as defined at
 <http://semver.org>.
 
 ## How to contribute
