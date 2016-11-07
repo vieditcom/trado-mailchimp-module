@@ -1,6 +1,6 @@
 ![alt text](http://cdn2.tomdallimore.com/assets/mailchimp-link-img.png "Trado")
 
-# MailChimp Module
+# MailChimp Newsletter
 
 [![Gem Version](https://badge.fury.io/rb/trado_mailchimp_module.svg)](https://badge.fury.io/rb/trado_mailchimp_module)
 
