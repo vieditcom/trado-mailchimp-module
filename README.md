@@ -1,4 +1,4 @@
-![alt text](http://cdn0.trado.io/trado-promo/assets/img/cropped.png "Trado")
+![alt text](http://cdn2.tomdallimore.com/assets/mailchimp-link-img.png "Trado")
 
 # MailChimp Module
 
