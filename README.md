@@ -1,6 +1,9 @@
-![alt text](http://cdn0.trado.io/trado-promo/assets/img/cropped.png "Trado")
+![alt text](http://cdn2.tomdallimore.com/assets/mailchimp-link-img.png "Trado")
 
-# MailChimp Module
+# MailChimp Newsletter
+
+[![Gem Version](https://badge.fury.io/rb/trado_mailchimp_module.svg)](https://badge.fury.io/rb/trado_mailchimp_module)
+
 Module for MailChimp newsletter subscription in the Trado Ecommerce platform. If you would like to get started using the Trado Ecommerce platform, head on over to the [Official site](http://www.trado.io/?utm_source=github&utm_medium=website&utm_campaign=trado)!
 
 [Release notes](http://release.tomdallimore.com/projects/trado-mailchimp)
